@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => {
-  return <div>Hi there!</div>;
-}
+import SearchBar from './components/search_bar';
+
+const App = () => (
+  <div>
+    <SearchBar />
+  </div>
+);
 
 ReactDOM.render(<App />, document.querySelector('.container'));
